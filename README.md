@@ -4,8 +4,6 @@
 
 The goal of the project is to create a “word cloud” from a text by writing a program. This program needs to process the text, remove punctuation, count the frequencies, and ignore uninteresting or irrelevant words.
 
-A word cloud is an image that's made up of different sized words. Usually the sizes of the words are determined by how many times each word appears in a specific text. To create the image itself, The program uses an external Python module called creatively **Word cloud**.
-
 The program go through the text, clean up the text to remove any punctuation marks [1], count how many times each word appears using a dictionary and use that as a parameter for the word cloud module..
 
 For that, we create a dictionary with words and word frequencies that can be passed to the generate_from_frequencies function of the `WordCloud` class.
